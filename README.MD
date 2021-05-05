@@ -30,22 +30,6 @@ yarn typeorm migration:run
 
 ```
 
-# Iniciando o servidor em ambiente de desenvolvimento
-
-```shell
-
-yarn dev:server
-
-```
-
-# Iniciando o servidor em javascript para a versão final
-
-```shell
-
-yarn build e yarn dev:app
-
-```
-
 # Iniciando o server
 
 ```shell
