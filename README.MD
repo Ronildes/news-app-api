@@ -2,7 +2,7 @@
 
 - Foi utilizado o docker nessa aplicação
 
-- O banco de dados utilizado é o postgres
+- O banco de dados utilizado é o postgres e está dentro do docker
 
 - Qualquer front-end pode se comunicar com este arquivo
 
@@ -10,7 +10,7 @@
 
 - A porta padrão da aplicação é: 3333
 
-- Video de ajuda: https://youtu.be/2B-noIniWQU
+- Playlist com explicação das rotas: https://youtube.com/playlist?list=PLLC9I8AGyoNiZrl2SYMxSj8M6gvq0czei
 
 # Iniciando o projeto:
 
@@ -22,7 +22,7 @@ yarn ou npm
 
 ```
 
-# Configurando o banco de dados
+# Configurando o banco de dados:
 
 ```shell
 
@@ -30,7 +30,7 @@ yarn typeorm migration:run
 
 ```
 
-# Iniciando o server
+# Iniciando o server:
 
 ```shell
 
