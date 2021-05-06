@@ -24,7 +24,7 @@ export default class UpdateNewsDateConfig1620069540688
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
-    queryRunner.changeColumn(
+    await queryRunner.changeColumn(
       'news',
       'likeCount',
       new TableColumn({
@@ -32,7 +32,7 @@ export default class UpdateNewsDateConfig1620069540688
         type: 'varchar',
       })
     );
-    queryRunner.changeColumn(
+    await queryRunner.changeColumn(
       'news',
       'dislikeCount',
       new TableColumn({
